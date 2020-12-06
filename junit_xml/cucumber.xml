@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="9" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="0">
+<testcase classname="Search Functionality" name="Validating Positive search functionality" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on Search page................................................undefined
+And user navigate to Search page............................................undefined
+When user enters "<keywords>" and "<location>"and "up to 80miles"...........undefined
+And user clicks on  Find Jobs button........................................undefined
+Then user is navigated to search results....................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Search Functionality" name="Validating Positive search functionality 2" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on Search page................................................undefined
+And user navigate to Search page............................................undefined
+When user enters "<keywords>" and "<location>"and "up to 30miles"...........undefined
+And user clicks on  Find Jobs button........................................undefined
+Then user is navigated to search results....................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Search Functionality" name="Validating Positive search functionality 3" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on Search page................................................undefined
+And user navigate to Search page............................................undefined
+When user enters "<keywords>" and "<location>"and "up to 50miles"...........undefined
+And user clicks on  Find Jobs button........................................undefined
+Then user is navigated to search results....................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Search Functionality" name="Validating Negative search functionality" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on Search page................................................undefined
+And user navigate to Search page............................................undefined
+When user enters negative keys "<keywords1>" and "<location1>"and "up to 80miles".undefined
+And user clicks on  Find Jobs button........................................undefined
+Then user is able to see error message......................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Search Functionality" name="Validating Negative search functionality 2" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on Search page................................................undefined
+And user navigate to Search page............................................undefined
+When user enters negative keys "<keywords1>" and "<location1>"and "up to 30miles".undefined
+And user clicks on  Find Jobs button........................................undefined
+Then user is able to see error message......................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Search Functionality" name="Validating Negative search functionality 3" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on Search page................................................undefined
+And user navigate to Search page............................................undefined
+When user enters negative keys "<keywords1>" and "<location1>"and "up to 80miles".undefined
+And user clicks on  Find Jobs button........................................undefined
+Then user is able to see error message......................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Search Functionality" name="Validating Negative search functionality 4" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on Search page................................................undefined
+And user navigate to Search page............................................undefined
+When user enters negative keys "<keywords1>" and "<location1>"and "up to 80miles".undefined
+And user clicks on  Find Jobs button........................................undefined
+Then user is able to see error message......................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Search Functionality" name="Validating Negative search functionality 5" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on Search page................................................undefined
+And user navigate to Search page............................................undefined
+When user enters negative keys "<keywords1>" and "<location1>"and "up to 0miles".undefined
+And user clicks on  Find Jobs button........................................undefined
+Then user is able to see error message......................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Search Functionality" name="Validating Negative search functionality 6" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on Search page................................................undefined
+And user navigate to Search page............................................undefined
+When user enters negative keys "<keywords1>" and "<location1>"and "up to 751miles".undefined
+And user clicks on  Find Jobs button........................................undefined
+Then user is able to see error message......................................undefined
+]]></failure>
+</testcase>
+</testsuite>

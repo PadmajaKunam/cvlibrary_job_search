@@ -1,0 +1,630 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Validating Positive search functionality",
+        "description": "",
+        "id": "search-functionality;validating-positive-search-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is on Search page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user navigate to Search page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user enters \"\u003ckeywords\u003e\" and \"\u003clocation\u003e\"and \"up to 80miles\"",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user clicks on  Find Jobs button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user is navigated to search results",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sprint1"
+          },
+          {
+            "line": 3,
+            "name": "@US0001"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Validating Positive search functionality",
+        "description": "",
+        "id": "search-functionality;validating-positive-search-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is on Search page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user navigate to Search page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user enters \"\u003ckeywords\u003e\" and \"\u003clocation\u003e\"and \"up to 30miles\"",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user clicks on  Find Jobs button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user is navigated to search results",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sprint1"
+          },
+          {
+            "line": 3,
+            "name": "@US0001"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Validating Positive search functionality",
+        "description": "",
+        "id": "search-functionality;validating-positive-search-functionality;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is on Search page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user navigate to Search page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user enters \"\u003ckeywords\u003e\" and \"\u003clocation\u003e\"and \"up to 50miles\"",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user clicks on  Find Jobs button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user is navigated to search results",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sprint1"
+          },
+          {
+            "line": 3,
+            "name": "@US0001"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Validating Negative search functionality",
+        "description": "",
+        "id": "search-functionality;validating-negative-search-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user is on Search page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user navigate to Search page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "user enters negative keys \"\u003ckeywords1\u003e\" and \"\u003clocation1\u003e\"and \"up to 80miles\"",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "user clicks on  Find Jobs button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user is able to see error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sprint1"
+          },
+          {
+            "line": 15,
+            "name": "@US0002"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Validating Negative search functionality",
+        "description": "",
+        "id": "search-functionality;validating-negative-search-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user is on Search page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user navigate to Search page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "user enters negative keys \"\u003ckeywords1\u003e\" and \"\u003clocation1\u003e\"and \"up to 30miles\"",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "user clicks on  Find Jobs button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user is able to see error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sprint1"
+          },
+          {
+            "line": 15,
+            "name": "@US0002"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Validating Negative search functionality",
+        "description": "",
+        "id": "search-functionality;validating-negative-search-functionality;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user is on Search page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user navigate to Search page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "user enters negative keys \"\u003ckeywords1\u003e\" and \"\u003clocation1\u003e\"and \"up to 80miles\"",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "user clicks on  Find Jobs button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user is able to see error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sprint1"
+          },
+          {
+            "line": 15,
+            "name": "@US0002"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Validating Negative search functionality",
+        "description": "",
+        "id": "search-functionality;validating-negative-search-functionality;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user is on Search page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user navigate to Search page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "user enters negative keys \"\u003ckeywords1\u003e\" and \"\u003clocation1\u003e\"and \"up to 80miles\"",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "user clicks on  Find Jobs button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user is able to see error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sprint1"
+          },
+          {
+            "line": 15,
+            "name": "@US0002"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Validating Negative search functionality",
+        "description": "",
+        "id": "search-functionality;validating-negative-search-functionality;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user is on Search page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user navigate to Search page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "user enters negative keys \"\u003ckeywords1\u003e\" and \"\u003clocation1\u003e\"and \"up to 0miles\"",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "user clicks on  Find Jobs button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user is able to see error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sprint1"
+          },
+          {
+            "line": 15,
+            "name": "@US0002"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Validating Negative search functionality",
+        "description": "",
+        "id": "search-functionality;validating-negative-search-functionality;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user is on Search page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user navigate to Search page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "user enters negative keys \"\u003ckeywords1\u003e\" and \"\u003clocation1\u003e\"and \"up to 751miles\"",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "user clicks on  Find Jobs button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user is able to see error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Sprint1"
+          },
+          {
+            "line": 15,
+            "name": "@US0002"
+          }
+        ]
+      }
+    ],
+    "name": "Search Functionality",
+    "description": "",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Users/kunam/sbootspr/src/main/automatingsearchfunctionality/src/test/java/com/appfeature/user_search_jobs.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Sprint1"
+      }
+    ]
+  }
+]
